@@ -65,6 +65,6 @@ Add_Definitions(-D__STDC_LIMIT_MACROS
 				)
 
 aux_add_lib(
-	${PROJECT_NAME} "bgfx"
+	${PROJECT_NAME} "3rd"
 	${SRCS_PATH}
 )
