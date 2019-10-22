@@ -68,3 +68,5 @@ aux_add_lib(
 	${PROJECT_NAME} "3rd"
 	${SRCS_PATH}
 )
+
+target_include_directories( ${PROJECT_NAME} PUBLIC ${CMAKE_ROOT_DIR}/3rd/bx/include )
